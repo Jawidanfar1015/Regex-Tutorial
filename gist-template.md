@@ -82,6 +82,9 @@ Character classes match a character from a specific set. There are a number of p
 
 ### The OR Operator
 
+- `|` Acts like a boolean OR. Matches the expression before or after the |.
+  It can operate within a group, or on a whole expression. The patterns will be tested in order. Just as in java will match either set of characters. It will look for this OR that.
+
 ### Flags
 
 ### Character Escapes
