@@ -25,11 +25,17 @@ The below content will explain what each section of this code does and more.
 
 ## Regex Components
 
+### Anchors
+
 - `^abc$` -^start / $end of the string
+
   - `^` Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled.This matches a position, not a character.
   - `$` Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.
 
-### Anchors
+- `\b\B` -word, not-word boundary
+  - `\b` Matches a word boundary position between a word character and non-word character or position (start / end of string). See the word character class (w) for more info.
+  - `\B` Matches any position that is not a word boundary. This matches a position, not a character.
+  - See Boundaries for more detailed Information
 
 ### Quantifiers
 
