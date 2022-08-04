@@ -68,6 +68,18 @@ See Character Class to see some examples.
 
 ### Character Classes
 
+Character classes match a character from a specific set. There are a number of predefined character classes and you can also define your own sets.
+
+- `[ABC]` Characters inside brakets will match any character in the set.
+- `[^ABC]` Adding a caret will match any character that is not in the set.
+- `[A-Z]` Add a dash between two characters will select a Range.
+- `.` Will Match any characters expect linebreaks. Its like a wildcard and will accpet any input.
+- `[\s\S]` A character set that can be used to match any character, including line breaks, without the dotall flag. An alternative is [^] carrot in brackets, but it is not supported in all browsers.
+- `\w` Matches any word character (alphanumeric & underscore). Only matches low-ascii characters (no accented or non-roman characters).
+- `\W` Matches any character that is not a word character (alphanumeric & underscore).
+- `\d` Matches any digit character (0-9)
+- `\p` Matches a character in the specified unicode category.
+
 ### The OR Operator
 
 ### Flags
