@@ -22,6 +22,7 @@ The below content will explain what each section of this code does and more.
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Sources and References](#sources-and-references)
 
 ## Regex Components
 
@@ -105,4 +106,11 @@ The backslash in a regular expression precedes a literal character. You also esc
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Jawid Noori: UW Coding Bootcamp Student
+[github] https://github.com/Jawidanfar1015
+
+### Sources and References
+
+- [regexr](https://regexr.com/)
+- [BackRef](https://www.regular-expressions.info/backref.html)
+- [RegExpression](https://www.regular-expressions.info/wordboundaries.html)
