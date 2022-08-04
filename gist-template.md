@@ -87,6 +87,15 @@ Character classes match a character from a specific set. There are a number of p
 
 ### Flags
 
+Expression flags change how the expression is interpreted. Flags follow the closing forward slash of the expression.
+
+- `i` Ignores case
+- `g` Global search retain the index of the last match, allowing subsequent searches to start from the end of the previous match. Without the global flag, subsequent searches will return the same match.
+- `m` Multiline flag When the multiline flag is enabled, beginning and end anchors (^ and $) will match the start and end of a line, instead of the start and end of the whole string.
+- `u` Unicode
+- `y` The expression will only match from its lastIndex position and ignores the global (g) flag if set. Because each search in RegExr is discrete, this flag has no further impact on the displayed results.
+- `s` Dot (.) will match any character, including newline.
+
 ### Character Escapes
 
 ## Author
