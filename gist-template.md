@@ -62,6 +62,10 @@ Quantifiers indicate that the preceding token must be matched a certain number o
 
 ### Bracket Expressions
 
+A bracket expression enclosed in square brackets is a regular expression that matches a single character, or collating element. If the initial character is a circumflex ^, then this bracket expression is complemented.
+
+See Character Class to see some examples.
+
 ### Character Classes
 
 ### The OR Operator
