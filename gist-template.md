@@ -55,6 +55,11 @@ Quantifiers indicate that the preceding token must be matched a certain number o
 
 ### Grouping Constructs
 
+- `(ABC)` Capturing groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+- `(?<name>ABC)` named capturing group captures groups of a specific name.
+- `\1` is a numeric Referance
+- `(?:ABC)` Groups multiple tokens together without creating a capture group.
+
 ### Bracket Expressions
 
 ### Character Classes
