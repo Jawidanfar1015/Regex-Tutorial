@@ -101,13 +101,13 @@ Expression flags change how the expression is interpreted. Flags follow the clos
 
 The backslash in a regular expression precedes a literal character. You also escape certain letters that represent common character classes, such as \w for a word character or \s for a space. The following example matches word characters (alphanumeric and underscores) and spaces.
 
-"Are you there, Alice?, asked Jerry."
+"Are you there, Alice?, asked Jerry."<br>
 "(here|there).+(\w+).+(said|asked)(\s)(\w+)\." );
 
 ## Author
 
-Jawid Noori: UW Coding Bootcamp Student
-[github] https://github.com/Jawidanfar1015
+- Jawid Noori: UW Coding Bootcamp Student
+- [github](https://github.com/Jawidanfar1015)
 
 ### Sources and References
 
